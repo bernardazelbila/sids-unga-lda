@@ -1,0 +1,9 @@
+# Direct dependencies identified from the original script.
+# Original package versions were not supplied; this is not a lockfile.
+numpy
+pandas
+matplotlib
+nltk
+gensim
+scipy
+openpyxl
