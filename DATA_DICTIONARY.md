@@ -18,6 +18,6 @@ Worksheet: `Sheet1`. The workbook contains 882 data rows and nine columns. Obser
 
 Descriptions are based on column names, observed values, and how the script reads the workbook. An upstream codebook was not supplied. These are source records, not an asserted count of sentences or unique speeches.
 
-The script requires `Year` and `Cleaned_Speech_Text` for both analysis inputs. It reads the first worksheet by default. For sentence analysis, it removes records with missing years or text and strips empty text before segmentation. The separate LDA input, `SIDS_UNGA_climate_filtered_corpus_states_only.xlsx`, is not included, so its contents and relationship to this workbook have not been verified.
+The script requires `Year` and `Cleaned_Speech_Text` for both analysis inputs. It reads the first worksheet by default. For sentence analysis, it removes records with missing years or text and strips empty text before segmentation. 
 
 The analysis script begins with already filtered text. It does not implement or document the upstream climate classifier or the creation of the `states_only` workbook.
